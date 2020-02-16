@@ -1,5 +1,5 @@
 <template>
-<!--Diagram.vue corresponde al componente encargado de crear la visualizacion adecuada de la string correspondiente -->
+<!--Diagram.vue corresponde al componente encargado de crear la visualizacion de acuerdo a la respectiva configuracion que es enviada desde el componente List.vue -->
   <div class="background">
     <div class="background2" :style="{'height':(272*(number-1))+'px'}"></div>
     <!-- v-for encargado de crear la cantidad de ejes correspondientes-->
