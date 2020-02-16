@@ -1,19 +1,16 @@
 <template>
   <div id="app">
     <List/>
-    <Diagrama/>
   </div>
 </template>
 
 <script>
 import List from './components/List.vue'
-import Diagrama from './components/Diagrama.vue'
 import './sass/styles.sass'
 
 export default {
   name: 'App',
   components: {
-    Diagrama,
     List
   }
 }

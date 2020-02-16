@@ -1,12 +1,8 @@
-$coloreje1: #00789B
-$coloreje2: #22B687
+$coloraxis1: #00789B
+$coloraxis2: #22B687
 $ubicacion: center
 $colortext: #FFF
-$fondo: #00313F
-.fondo3
-    width: 100%
-    height: 100%
-    background-color: #88D7A9
+$background: #00313F
 
 .list-cage
    width: 47%
@@ -21,31 +17,31 @@ $fondo: #00313F
     width: 48%
     height: 100%
     float: right 
-    background: $fondo
+    background: $background
     margin-top: 5px
 
-.Fondo
+.background
     margin: 20px 0
     div
         z-index: 1000
         position: relative
 
-.Fondo2
+.background2
     position: absolute !important
-    background-color: #325B95
+    background-color: #05556C
     width: 20px
     margin: 80px 0px 0px 25%
     z-index: 1 !important
     
 
-.eje1
+.axis1
     display: inline-block
     width: 100px
     height: 100px
     -moz-border-radius: 50%
     -webkit-border-radius: 50%
     border-radius: 50%
-    background: $coloreje1 
+    background: $coloraxis1 
     position: relative
     margin: 50px 0 0 50px
     color: $colortext
@@ -56,19 +52,19 @@ $fondo: #00313F
 .bar1
     width: 70%
     height: 30px
-    border: 3px solid $coloreje1
+    border: 3px solid $coloraxis1
     margin-left: -30px
     margin-top: 80px
-    background: $coloreje1
+    background: $coloraxis1
 
-.eje2
+.axis2
     display: inline-block
     width: 100px
     height: 100px
     -moz-border-radius: 50%
     -webkit-border-radius: 50%
     border-radius: 50%
-    background: $coloreje2 
+    background: $coloraxis2 
     position: relative
     margin: 50px 0 0 50px
     color: $colortext
@@ -78,35 +74,29 @@ $fondo: #00313F
 .bar2
     width: 70%
     height: 30px
-    border: 3px solid $coloreje2
+    border: 3px solid $coloraxis2
     margin-left: -30px
     margin-top: 80px
-    background: $coloreje2
+    background: $coloraxis2
 
-.barcent
-    width: 3% 
-    height: 80% 
-    background: $coloreje1
-    float: center
-
-.Eje
+.axis
     display: flex
     margin-top: 120px
 
-.llanta
+.rims
     width: 50px 
     height: 100%
-    background: $fondo
+    background: $background
     border-radius: 5px
     border-style: solid
     border-color: $colortext
     margin-top: -50%
     color: $colortext
 
-.llanta2
+.rims2
     width: 50px 
     height: 100% 
-    background: $fondo
+    background: $background
     border-radius: 5px
     border-style: solid
     border-color: $colortext
@@ -114,7 +104,7 @@ $fondo: #00313F
     margin-top: -50%
     color: $colortext
 
-.circulo 
+.support-point 
     width: 40px
     height: 40px
     margin-top: -180px
@@ -122,24 +112,24 @@ $fondo: #00313F
     -moz-border-radius: 50%
     -webkit-border-radius: 50%
     border-radius: 50%
-    background: $coloreje1
+    background: $coloraxis1
     color: $colortext
     text-align: center
     vertical-align: middle
     line-height: normal
 
-.cuadrado
+.line-support-point
     width: 0px
     height: 90px
-    border: 3px dashed $coloreje1
+    border: 3px dashed $coloraxis1
     background: transparent
     z-index: 1
     margin-left: 50%
 
-.cuadrado2
+.line-support-point2
     width: 0px
     height: 115px
-    border: 3px dashed $coloreje1
+    border: 3px dashed $coloraxis1
     background: transparent
     z-index: 1
     margin-left: 50%
