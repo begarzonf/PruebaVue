@@ -1,5 +1,8 @@
 # pruebavue
-
+## Ejecucion
+```
+Hacer click en la configuración a la que se desea verle su respectiva visualización
+```
 ## Project setup
 ```
 npm install
